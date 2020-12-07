@@ -1,70 +1,98 @@
 body{
-    font-family: ;
+    font-family: "バナナスリップplus plus";
 }
 
-.links{
-    transition: color 0.3s;
-    text-decoration: none;
-  }
-
-.links {
-    color:ff0;
-    }
-
-.links { 
-    color:#fff;   
-    }
-
-.links:hover { 
-    color:#999;        
-    }
-
-.links:active { 
-    color:#fff;  
-        }    
-
-        .links {
-            position: relative;
-            padding: 0.1em 0.3em;
-            display: inline-block;
-            transition: .3s;
-            color: #FFA000;
-        }
-        .links::after {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            content: '';
-            width: 0;
-            height: 1px;
-            background-color: #FFA000;
-            transition: .3s;
-            transform: translateX(-50%);
-        }
-        .links:hover::after {
-            width: 100%;
-        }
-
 header{
-    height: 90px;
+    height: 80px;
     background:repeating-linear-gradient(
         -45deg,
-           rgb(250, 207, 122, 0.7) 0,rgb(250, 207, 122, 0.7) 20px,  rgb(126, 192, 236, 0.7) 20px,
-           rgb(126, 192, 236, 0.7) 40px, rgb(230, 128, 250, 0.7) 40px, rgba(230, 128, 250, 0.7) 60px,
-           rgb(247, 151, 192, 0.7) 60px, rgb(247, 151, 192, 0.7) 80px );
+           rgb(250, 207, 122, 0.5) 0,rgb(250, 207, 122, 0.5) 20px,  rgb(123, 183, 223, 0.5) 20px,
+           rgba(123, 183, 223, 0.5) 40px, rgb(207, 138, 221, 0.5) 40px, rgba(207, 138, 221, 0.5) 60px,
+           rgba(253, 178, 211, 0.5) 60px, rgb(253, 178, 211, 0.5) 80px );
+
+    padding:20px;       
 }
 
 .header-logo{
     float: left;
-    padding:15px 40px;
+    margin-right: 650px;
+    margin-left: 100px;
 }
 
-li {
+
+li{
     list-style: none;
-    float: left;
-    padding:33px 20px;
 }
 
-li sch {
-    padding-left: 300px;
+.header-list li {
+    float: left;
+    padding:20px;
+}
+
+ul a{
+    position: relative;
+    display: inline-block;
+    transition: .3s;
+}
+
+ul a::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: orange;
+    transition: .3s;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+ul a:hover::after {
+    width: 100%;
+}
+
+a {
+    text-decoration: none
+}
+
+a:link {
+    color:black;
+}
+.twitter:link {
+    color: #00acee;
+}
+.youtube:link {
+    color:red;
+}
+
+a:visited {
+    color: dimgray;
+}
+a:hover {
+    color:  darkslategray;
+}
+a:active {
+    color:dimgray;
+}
+
+
+footer{
+    height: 60px;
+    background:repeating-linear-gradient(
+        -45deg,
+           rgb(250, 207, 122, 0.5) 0,rgb(250, 207, 122, 0.5) 20px,  rgb(123, 183, 223, 0.5) 20px,
+           rgba(123, 183, 223, 0.5) 40px, rgb(207, 138, 221, 0.5) 40px, rgba(207, 138, 221, 0.5) 60px,
+           rgba(253, 178, 211, 0.5) 60px, rgb(253, 178, 211, 0.5) 80px );
+
+    padding:15px;
+
+}
+
+.footer-logo {
+    float: left;
+}
+
+.moco {
+    float: right;
 }
