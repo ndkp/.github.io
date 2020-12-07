@@ -2,6 +2,10 @@ body{
     font-family: "バナナスリップplus plus";
 }
 
+main{
+    text-align:center;
+}
+
 header{
     height: 80px;
     background:repeating-linear-gradient(
