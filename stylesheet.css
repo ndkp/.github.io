@@ -2,12 +2,8 @@ body{
     font-family: "バナナスリップplus plus";
 }
 
-main{
-    text-align:center;
-}
-
 header{
-    height: 80px;
+    height: 108px;
     background:repeating-linear-gradient(
         -45deg,
            rgb(250, 207, 122, 0.5) 0,rgb(250, 207, 122, 0.5) 20px,  rgb(123, 183, 223, 0.5) 20px,
@@ -17,20 +13,20 @@ header{
     padding:20px;       
 }
 
-.header-logo{
-    float: left;
-    margin-right: 650px;
-    margin-left: 100px;
-}
-
-
 li{
     list-style: none;
 }
 
-.header-list li {
+.header-logo{
     float: left;
-    padding:20px;
+    width: 50%;
+}
+
+.header-list li{
+    font-weight: bold;
+    float: right;
+    padding: 20px;
+    margin-top: 8px;
 }
 
 ul a{
@@ -81,6 +77,14 @@ a:active {
 }
 
 
+main{
+    text-align:center;
+}
+
+.artist-img{
+    width: 100%;
+}
+
 footer{
     height: 60px;
     background:repeating-linear-gradient(
@@ -95,8 +99,11 @@ footer{
 
 .footer-logo {
     float: left;
+    width: 40%;
+    margin-top: 8px;
 }
 
 .moco {
     float: right;
+    margin: 8px;
 }
