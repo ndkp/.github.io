@@ -1,0 +1,15 @@
+main{
+    text-align:center;
+}
+
+.biography {
+    margin-top: 80px;
+}
+
+table th{
+    padding : 20px 10px 5px;
+  }
+  
+table td{
+    padding : 20px 10px 5px;
+}
