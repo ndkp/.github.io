@@ -1,0 +1,109 @@
+body{
+    font-family: "バナナスリップplus plus";
+}
+
+header{
+    height: 108px;
+    background:repeating-linear-gradient(
+        -45deg,
+           rgb(250, 207, 122, 0.5) 0,rgb(250, 207, 122, 0.5) 20px,  rgb(123, 183, 223, 0.5) 20px,
+           rgba(123, 183, 223, 0.5) 40px, rgb(207, 138, 221, 0.5) 40px, rgba(207, 138, 221, 0.5) 60px,
+           rgba(253, 178, 211, 0.5) 60px, rgb(253, 178, 211, 0.5) 80px );
+
+    padding:20px;       
+}
+
+li{
+    list-style: none;
+}
+
+.header-logo{
+    float: left;
+    width: 50%;
+}
+
+.header-list li{
+    font-weight: bold;
+    float: right;
+    padding: 20px;
+    margin-top: 8px;
+}
+
+ul a{
+    position: relative;
+    display: inline-block;
+    transition: .3s;
+}
+
+ul a::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: orange;
+    transition: .3s;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+ul a:hover::after {
+    width: 100%;
+}
+
+a {
+    text-decoration: none
+}
+
+a:link {
+    color:black;
+}
+.twitter:link {
+    color: #00acee;
+}
+.youtube:link {
+    color:red;
+}
+
+a:visited {
+    color: dimgray;
+}
+a:hover {
+    color:  darkslategray;
+}
+a:active {
+    color:dimgray;
+}
+
+
+main{
+    text-align:center;
+}
+
+.artist-img{
+    width: 100%;
+}
+
+footer{
+    height: 60px;
+    background:repeating-linear-gradient(
+        -45deg,
+           rgb(250, 207, 122, 0.5) 0,rgb(250, 207, 122, 0.5) 20px,  rgb(123, 183, 223, 0.5) 20px,
+           rgba(123, 183, 223, 0.5) 40px, rgb(207, 138, 221, 0.5) 40px, rgba(207, 138, 221, 0.5) 60px,
+           rgba(253, 178, 211, 0.5) 60px, rgb(253, 178, 211, 0.5) 80px );
+
+    padding:15px;
+
+}
+
+.footer-logo {
+    float: left;
+    width: 40%;
+    margin-top: 8px;
+}
+
+.moco {
+    float: right;
+    margin: 8px;
+}

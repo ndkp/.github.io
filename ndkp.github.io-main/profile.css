@@ -1,0 +1,25 @@
+.profile-img{
+    float: left;
+    width: 50%;
+    margin-bottom: 32px;
+} 
+
+.purple{
+    color: purple;
+}
+
+.yellow{
+    color: goldenrod;
+}
+
+.pink{
+    color: pink;
+}
+
+.blue{
+    color: blue;
+}
+
+.clear{
+    clear: left;
+}
