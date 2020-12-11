@@ -102,8 +102,11 @@ footer{
     width: 40%;
     margin-top: 8px;
 }
+small {
+    text-align: center;
+}
 
-.moco {
+adress {
     float: right;
     margin: 8px;
 }
